@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- how we can access html elements using DOM in java script -->
+
+<!--
+    There are 4 methods to access the html elements by using DOM in java script    
+    1: Accessing Elements by ID
+    2: Accessing Elements by Tag Name
+    3: Accessing Elements by Class Name:
+    4:Accessing Elements by CSS Selector:
+ -->
+
+<h1 id="heading">hello world</h1>
+<p>HI</p>
+
+<h2 class="body">Hello Everyone!</h2>
+
+<span id="myspan">hey champ!</span>
+
+<button>submit</button>
+
+    <script src="./dom.js"></script>
+</body>
+</html>
+
+
+
+<!-- Qno2:  what are the activities that we can perform using DOM -->
+
+<!-- There are several activities that we can perform using DOM these activities are follwing:
+
+ 1) Accessing Elements: You can retrieve HTML elements by their ID, tag name, class name, or using CSS selectors. Once you have a reference to an element, you can modify its properties, content, or apply styles.
+
+2) Modifying Content: You can change the text content, HTML markup, attributes, and properties of elements. For example, you can update the innerHTML or textContent property to change the content of an element.
+
+3) Manipulating Styles: You can modify the CSS styles of elements using the style property. You can change properties like color, font-size, width, height, and more. You can add, remove, or toggle CSS classes on elements to apply pre-defined styles.
+
+4) Handling Events: You can attach event handlers to elements to respond to user interactions, such as clicks, key presses, or mouse movements. DOM events allow you to execute JavaScript code in response to specific actions.
+
+5) Creating and Appending Elements: You can dynamically create new HTML elements using the createElement method. You can then append these elements as children to other elements using methods like appendChild or insertBefore.
+
+6) Traversing the DOM Tree: You can navigate the DOM tree by accessing parent, child, or sibling elements. You can use properties like parentNode, childNodes, firstChild, lastChild, nextSibling, previousSibling, and more to traverse and manipulate the structure of the document.
+
+7) Handling Forms: You can access and manipulate form elements, retrieve input values, validate user input, and submit forms programmatically using DOM methods and properties.
+
+8) Manipulating Attributes: You can modify attributes of elements, such as src, href, value, or data-* attributes, using methods like getAttribute and setAttribute.
+
+9) Performing Animations: You can create animations by changing CSS properties gradually over time using JavaScript. You can use techniques like setTimeout, setInterval, or CSS transitions and animations to achieve various animation effects.
+
+
+-->
+
+
+<!-- Qno3  What are the event-listeners in DOM -->
+
+<!-- 
+    Event listeners in the (DOM) allow you to attach functions or code snippets to specific events that occur on HTML elements. There are many common events are follwing
+        click
+        submit
+        keydown
+        keyup 
+        mouseover 
+        mouseout 
+        focus
+        blur
+        load
+        resize
+        scroll 
+        change
+
+        For Example:
+
+
+        <button>submit</button>
+
+        let btn = document.querySelector('button');
+        btn.addEventListener('click', function() {
+         console.log('Button clicked!');
+        
+        });
+  -->
+
